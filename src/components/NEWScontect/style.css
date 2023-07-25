@@ -1,0 +1,48 @@
+#main_container {
+  padding: 1rem;
+}
+
+#main_container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.singe_card {
+    background-color: #f4ffff;
+  width: 60vh;
+  min-height: 60vh;
+  margin: 1rem;
+  border-radius: 10%;
+  padding: 1rem 1.5rem;
+
+  border: 1px solid black;
+  outline: 1px solid black;
+  outline-offset: -4px;
+  transition: 500ms;
+
+  text-align: center;
+}
+
+.singe_card:hover {
+  outline-offset: 0px;
+  border: 2px solid black;
+  transform: scale(1.05);
+}
+
+.singe_card > img {
+  width: 100%;
+  border-radius: 2vh;
+}
+
+
+.side_by_side{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.author_of_article{
+    line-break: anywhere;
+}
